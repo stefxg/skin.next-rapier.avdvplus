@@ -53,6 +53,7 @@
 					<texture border="40,0,40,30">gui/context-menu-bottom.png</texture>
 				</control>
 			</control>
+			<include content="NextFramePulse"><param name="width" value="344" /><param name="top" value="0" /></include>
 			
 			<control type="grouplist" id="996">
 				<top>32</top>

@@ -15,6 +15,7 @@
 				<height>217</height>
 				<texture border="50,70,50,75">panels/dialog-background.png</texture>
 			</control>
+			<include content="NextFramePulse"><param name="width" value="520" /><param name="top" value="4" /></include>
 
 			<control type="group">
 				<left>2000</left>

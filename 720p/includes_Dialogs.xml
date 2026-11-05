@@ -83,6 +83,7 @@
 			<height>$PARAM[height]</height>
 			<texture border="50,70,50,75">panels/dialog-background.png</texture>
 		</control>
+		<include content="NextFramePulse"><param name="width" value="$PARAM[width]" /><param name="top" value="4" /></include>
 
 		<control type="button">
 			<left>$PARAM[left]</left>
@@ -96,6 +97,7 @@
 			<height>$PARAM[height]</height>
 			<texture border="50,70,50,75">panels/dialog-background.png</texture>
 		</control>
+		<include content="NextFramePulse"><param name="width" value="$PARAM[width]" /><param name="top" value="4" /></include>
 
 		<control type="button">
 			<left>$PARAM[left]</left>
@@ -115,6 +117,7 @@
 			<height>$PARAM[height]</height>
 			<texture border="50,70,50,75">panels/dialog-background.png</texture>
 		</control>
+		<include content="NextFramePulse"><param name="width" value="$PARAM[width]" /><param name="top" value="4" /></include>
 
 		<control type="button">
 			<left>$PARAM[left]</left>
@@ -134,6 +137,7 @@
 			<height>$PARAM[height]</height>
 			<texture border="50,50,50,75">panels/dialog-background2.png</texture>
 		</control>
+		<include content="NextFramePulse"><param name="width" value="$PARAM[width]" /><param name="top" value="4" /></include>
 
 		<control type="button">
 			<left>$PARAM[left]</left>
@@ -147,6 +151,7 @@
 			<height>$PARAM[height]</height>
 			<texture border="50">panels/dialog-background3.png</texture>
 		</control>
+		<include content="NextFramePulse"><param name="width" value="$PARAM[width]" /><param name="top" value="4" /></include>
 
 		<control type="button">
 			<left>$PARAM[left]</left>
@@ -160,6 +165,7 @@
 			<height>$PARAM[height]</height>
 			<texture border="50">panels/dialog-background3.png</texture>
 		</control>
+		<include content="NextFramePulse"><param name="width" value="$PARAM[width]" /><param name="top" value="4" /></include>
 
 		<control type="button">
 			<left>$PARAM[left]</left>
@@ -179,6 +185,7 @@
 			<height>$PARAM[height]</height>
 			<texture border="50">panels/dialog-background4.png</texture>
 		</control>
+		<include content="NextFramePulse"><param name="width" value="$PARAM[width]" /><param name="top" value="1" /></include>
 
 		<control type="button">
 			<left>$PARAM[left]</left>

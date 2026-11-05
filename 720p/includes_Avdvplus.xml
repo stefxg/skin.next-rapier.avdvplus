@@ -394,4 +394,25 @@
 			</control>
 		</control>
 	</include>
+	<!-- Next-Rapier : impulsion lumineuse qui court sur le bord haut des cadres (tête lumineuse + traînée qui s'efface).
+	     top = filet haut du cadre - 8 : 4 pour dialog-background 1 à 3, 1 pour le 4, 0 pour le menu contextuel.
+	     Cycle de 6,5 s : balayage de 2,2 s depuis le chanfrein (x = 33), puis pause. Coupé par le mode « peu d'animations ». -->
+	<include name="NextFramePulse">
+		<param name="width" default="520" />
+		<param name="top" default="4" />
+		<definition>
+			<control type="image">
+				<top>$PARAM[top]</top>
+				<width>$PARAM[width]</width>
+				<height>16</height>
+				<texture border="33,0,40,0">gui/frame-pulse.png</texture>
+				<visible>!Skin.String(LowCPUPowerMode,Animations) + !Skin.String(LowCPUPowerMode,Full)</visible>
+				<animation type="Conditional" condition="true" loop="true">
+					<effect type="zoom" start="0,100" end="100,100" center="33,0" time="2200" tween="sine" easing="in" />
+					<effect type="fade" start="100" end="0" time="900" delay="1700" />
+					<effect type="fade" start="100" end="100" time="6500" />
+				</animation>
+			</control>
+		</definition>
+	</include>
 </includes>
