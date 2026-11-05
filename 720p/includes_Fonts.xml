@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<!-- avdvplus: Art Deco home menu font (Federo, SIL OFL 1.1) for the Default fontset -->
+	<!-- Next-Rapier: sci-fi home menu font (Bruno Ace SC, SIL OFL 1.1) for the Default fontset -->
 	<include name="AvdvHomeCategoryLabelFonts">
 		<font>
 			<name>HomeCategoryLabelUnfocusFont</name>
-			<filename>Federo-Regular.ttf</filename>
-			<size>29</size>
+			<filename>BrunoAceSC-Regular.ttf</filename>
+			<size>23</size>
 			<style>uppercase</style>
-			<aspect>0.86</aspect>
+			<aspect>0.8</aspect>
 		</font>
 		<font>
 			<name>HomeCategoryLabelFocusFont</name>
-			<filename>Federo-Regular.ttf</filename>
-			<size>38</size>
+			<filename>BrunoAceSC-Regular.ttf</filename>
+			<size>30</size>
 			<style>uppercase</style>
-			<aspect>0.86</aspect>
+			<aspect>0.8</aspect>
 		</font>
 		<font>
 			<name>HomeCategoryLabel2Font</name>
-			<filename>Federo-Regular.ttf</filename>
-			<size>14</size>
+			<filename>BrunoAceSC-Regular.ttf</filename>
+			<size>12</size>
 			<style>uppercase</style>
-			<aspect>0.88</aspect>
+			<aspect>0.8</aspect>
 		</font>
 		<font>
 			<name>HomeSubMenuBtnFont</name>
-			<filename>Federo-Regular.ttf</filename>
-			<size>13</size>
+			<filename>BrunoAceSC-Regular.ttf</filename>
+			<size>12</size>
 			<style>uppercase</style>
-			<aspect>0.88</aspect>
+			<aspect>0.76</aspect>
 		</font>
 	</include>
 
