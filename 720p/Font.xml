@@ -310,8 +310,10 @@
 		
 		<font>
 			<name>DialogTitleFont</name>
-			<filename>gui.ttf</filename>
+			<filename>BrunoAceSC-Regular.ttf</filename>
 			<size>16</size>
+			<style>uppercase</style>
+			<aspect>0.86</aspect>
 		</font>
 		<font>
 			<name>DialogHeadFont</name>
