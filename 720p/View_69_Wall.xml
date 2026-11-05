@@ -465,7 +465,7 @@
 					<top>0</top>
 					<width>487</width>
 					<height>7</height>
-					<texture colordiffuse="A91060B1">white.png</texture>
+					<texture colordiffuse="A909B0CC">white.png</texture>
 				</control>
 				<control type="image">
 					<description>Liseré bas</description>
@@ -473,7 +473,7 @@
 					<top>242</top>
 					<width>487</width>
 					<height>7</height>
-					<texture colordiffuse="A91060B1">white.png</texture>
+					<texture colordiffuse="A909B0CC">white.png</texture>
 				</control>
 				<control type="image">
 					<description>Liseré droit (panneau à droite de l'affiche)</description>
@@ -481,7 +481,7 @@
 					<top>7</top>
 					<width>7</width>
 					<height>235</height>
-					<texture colordiffuse="A91060B1">white.png</texture>
+					<texture colordiffuse="A909B0CC">white.png</texture>
 					<visible>[Container(69).Column(0) | Container(69).Column(1) | Container(69).Column(2) | Container(69).Column(3) | Container(69).Column(4) | Container(69).Column(5)]</visible>
 				</control>
 				<control type="image">
@@ -490,7 +490,7 @@
 					<top>7</top>
 					<width>7</width>
 					<height>235</height>
-					<texture colordiffuse="A91060B1">white.png</texture>
+					<texture colordiffuse="A909B0CC">white.png</texture>
 					<visible>[Container(69).Column(6) | Container(69).Column(7) | Container(69).Column(8) | Container(69).Column(9) | Container(69).Column(10)]</visible>
 				</control>
 				<control type="image">
@@ -498,21 +498,21 @@
 					<top>0</top>
 					<width>487</width>
 					<height>1</height>
-					<texture colordiffuse="CC1374D8">white.png</texture>
+					<texture colordiffuse="CC0BD6F8">white.png</texture>
 				</control>
 				<control type="image">
 					<left>0</left>
 					<top>248</top>
 					<width>487</width>
 					<height>1</height>
-					<texture colordiffuse="CC1374D8">white.png</texture>
+					<texture colordiffuse="CC0BD6F8">white.png</texture>
 				</control>
 				<control type="image">
 					<left>486</left>
 					<top>0</top>
 					<width>1</width>
 					<height>249</height>
-					<texture colordiffuse="CC1374D8">white.png</texture>
+					<texture colordiffuse="CC0BD6F8">white.png</texture>
 					<visible>[Container(69).Column(0) | Container(69).Column(1) | Container(69).Column(2) | Container(69).Column(3) | Container(69).Column(4) | Container(69).Column(5)]</visible>
 				</control>
 				<control type="image">
@@ -520,7 +520,7 @@
 					<top>0</top>
 					<width>1</width>
 					<height>249</height>
-					<texture colordiffuse="CC1374D8">white.png</texture>
+					<texture colordiffuse="CC0BD6F8">white.png</texture>
 					<visible>[Container(69).Column(6) | Container(69).Column(7) | Container(69).Column(8) | Container(69).Column(9) | Container(69).Column(10)]</visible>
 				</control>
 				
@@ -742,7 +742,7 @@
 					<top>0</top>
 					<width>487</width>
 					<height>7</height>
-					<texture colordiffuse="A91060B1">white.png</texture>
+					<texture colordiffuse="A909B0CC">white.png</texture>
 				</control>
 				<control type="image">
 					<description>Liseré bas</description>
@@ -750,7 +750,7 @@
 					<top>322</top>
 					<width>487</width>
 					<height>7</height>
-					<texture colordiffuse="A91060B1">white.png</texture>
+					<texture colordiffuse="A909B0CC">white.png</texture>
 				</control>
 				<control type="image">
 					<description>Liseré droit (panneau à droite de l'affiche)</description>
@@ -758,7 +758,7 @@
 					<top>7</top>
 					<width>7</width>
 					<height>315</height>
-					<texture colordiffuse="A91060B1">white.png</texture>
+					<texture colordiffuse="A909B0CC">white.png</texture>
 					<visible>[Container(69).Column(0) | Container(69).Column(1) | Container(69).Column(2) | Container(69).Column(3)]</visible>
 				</control>
 				<control type="image">
@@ -767,7 +767,7 @@
 					<top>7</top>
 					<width>7</width>
 					<height>315</height>
-					<texture colordiffuse="A91060B1">white.png</texture>
+					<texture colordiffuse="A909B0CC">white.png</texture>
 					<visible>[Container(69).Column(4) | Container(69).Column(5) | Container(69).Column(6) | Container(69).Column(7)]</visible>
 				</control>
 				<control type="image">
@@ -775,21 +775,21 @@
 					<top>0</top>
 					<width>487</width>
 					<height>1</height>
-					<texture colordiffuse="CC1374D8">white.png</texture>
+					<texture colordiffuse="CC0BD6F8">white.png</texture>
 				</control>
 				<control type="image">
 					<left>0</left>
 					<top>328</top>
 					<width>487</width>
 					<height>1</height>
-					<texture colordiffuse="CC1374D8">white.png</texture>
+					<texture colordiffuse="CC0BD6F8">white.png</texture>
 				</control>
 				<control type="image">
 					<left>486</left>
 					<top>0</top>
 					<width>1</width>
 					<height>329</height>
-					<texture colordiffuse="CC1374D8">white.png</texture>
+					<texture colordiffuse="CC0BD6F8">white.png</texture>
 					<visible>[Container(69).Column(0) | Container(69).Column(1) | Container(69).Column(2) | Container(69).Column(3)]</visible>
 				</control>
 				<control type="image">
@@ -797,7 +797,7 @@
 					<top>0</top>
 					<width>1</width>
 					<height>329</height>
-					<texture colordiffuse="CC1374D8">white.png</texture>
+					<texture colordiffuse="CC0BD6F8">white.png</texture>
 					<visible>[Container(69).Column(4) | Container(69).Column(5) | Container(69).Column(6) | Container(69).Column(7)]</visible>
 				</control>
 				

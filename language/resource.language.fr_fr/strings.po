@@ -1767,12 +1767,12 @@ msgid "Skin image"
 msgstr "Image de la skin"
 
 msgctxt "#31786"
-msgid "Cinema - Earth"
-msgstr "Cinéma - Terre"
+msgid "Grid - Cyan"
+msgstr "Grille - Cyan"
 
 msgctxt "#31787"
-msgid "Cinema - Starry sky"
-msgstr "Cinéma - Ciel étoilé"
+msgid "Grid - Orange"
+msgstr "Grille - Orange"
 
 msgctxt "#31788"
 msgid "Custom"

@@ -502,7 +502,7 @@
 				<include content="DVDThumbsTVShowsOverlays">
 					<param name="top" value="15" />
 					<param name="left" value="257" />
-					<param name="colordiffuse" value="CC99CCFF" />
+					<param name="colordiffuse" value="CC94F0FF" />
 					<param name="fade" value="80" />
 					<param name="textcolor" value="ListColor3" />
 				</include>
@@ -571,7 +571,7 @@
 				<include content="DVDThumbsTVShowsOverlays">
 					<param name="top" value="15" />
 					<param name="left" value="257" />
-					<param name="colordiffuse" value="CC99CCFF" />
+					<param name="colordiffuse" value="CC94F0FF" />
 					<param name="fade" value="80" />
 					<param name="textcolor" value="ListColor3" />
 				</include>
@@ -662,7 +662,7 @@
 				<include content="DVDThumbsTVShowsOverlays">
 					<param name="top" value="16" />
 					<param name="left" value="253" />
-					<param name="colordiffuse" value="CC99CCFF" />
+					<param name="colordiffuse" value="CC94F0FF" />
 					<param name="fade" value="80" />
 					<param name="textcolor" value="ListColor3" />
 				</include>

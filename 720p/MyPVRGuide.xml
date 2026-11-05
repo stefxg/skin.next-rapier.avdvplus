@@ -279,7 +279,7 @@
 							<width>98</width>
 							<height>38</height>
 							<texture border="8">pvr/column.png</texture>
-							<colordiffuse>ff022788</colordiffuse>
+							<colordiffuse>ff007d9c</colordiffuse>
 							<include>LiveTVColumnFadeAnim</include>
 							<visible>String.IsEqual(ListItem.Property(GenreType),112) + !Skin.HasSetting(DisablePVRGuideColours)</visible>
 						</control>
@@ -306,7 +306,7 @@
 							<width>98</width>
 							<height>38</height>
 							<texture border="8">pvr/column.png</texture>
-							<colordiffuse>ff5a5a7e</colordiffuse>
+							<colordiffuse>ff658591</colordiffuse>
 							<include>LiveTVColumnFadeAnim</include>
 							<visible>String.IsEqual(ListItem.Property(GenreType),160) + !Skin.HasSetting(DisablePVRGuideColours)</visible>
 						</control>

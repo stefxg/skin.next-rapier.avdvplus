@@ -81,16 +81,16 @@
 	</include>
 
 	<include name="HomeMenuPaneImage">
-		<!-- avdvplus: Art Deco navy-and-gold frieze (matches the default global background) -->
+		<!-- Next-Rapier: glossy black bar with a cyan light line (Tron: Legacy style) -->
 		<control type="image">
 			<width>ScreenWidth</width>
 			<height>114</height>
-			<texture>gui/home-menu-bar-artdeco.png</texture>
+			<texture>gui/home-menu-bar-scifi.png</texture>
 			<aspectratio>stretch</aspectratio>
 		</control>
 
 		<control type="image">
-			<description>Gold Art Deco trim centred on the bar top edge (thin line with diamonds, 21 px at 1080p, matte gold)</description>
+			<description>Cyan light line centred on the bar top edge (21 px at 1080p with glow)</description>
 			<top>-7</top>
 			<width>ScreenWidth</width>
 			<height>14</height>
@@ -104,7 +104,7 @@
 			<top>2</top>
 			<width>ScreenWidth</width>
 			<height>112</height>
-			<texture>gui/home-menu-bar-overlay-navy.png</texture>
+			<texture>gui/home-menu-bar-overlay-dark.png</texture>
 			<animation effect="fade" end="68" condition="true">Conditional</animation>
 		</control>
 	</include>

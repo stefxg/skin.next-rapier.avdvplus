@@ -2416,11 +2416,11 @@ msgid "Skin image"
 msgstr ""
 
 msgctxt "#31786"
-msgid "Cinema - Earth"
+msgid "Grid - Cyan"
 msgstr ""
 
 msgctxt "#31787"
-msgid "Cinema - Starry sky"
+msgid "Grid - Orange"
 msgstr ""
 
 msgctxt "#31788"
