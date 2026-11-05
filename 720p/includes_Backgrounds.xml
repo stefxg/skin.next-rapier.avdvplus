@@ -609,6 +609,9 @@
 				<fadetime>BackgroundCrossfadeTime</fadetime>
 				<randomize>true</randomize>
 			</control>
+			<include content="NextDefaultBGGlow">
+				<param name="visible" value="$EXP[NextDefaultBGIsBuiltin]"/>
+			</include>
 
 			<control type="image">
 				<include>BackgroundDim</include>
@@ -653,6 +656,9 @@
 				<animation effect="slide" end="-20,-20" delay="4000" time="8000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(AnimateBackground) + !String.IsEmpty(Container(850).ListItem.Thumb)">Conditional</animation>
 				<animation effect="slide" end="40,0" delay="10000" time="6000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(AnimateBackground) + !String.IsEmpty(Container(850).ListItem.Thumb)">Conditional</animation>
 			</control>
+			<include content="NextDefaultBGGlow">
+				<param name="visible" value="$EXP[NextDefaultBGIsBuiltin] + String.IsEmpty(Container(9050).ListItem.Art(fanart)) + String.IsEmpty(Container(850).ListItem.Thumb)"/>
+			</include>
 		</control>
 	</include>
 	

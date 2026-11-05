@@ -21,6 +21,25 @@
 	<expression name="AvdvWallMedium">[Container.Content(Movies) + Skin.String(MoviesWallStyle,3)] | [Container.Content(TVShows) + Skin.String(TVShowsWallStyle,3)]</expression>
 
 	<!-- ============================================================ variables -->
+	<!-- Next-Rapier: the built-in neon-city default background is on screen -->
+	<expression name="NextDefaultBGIsBuiltin">[String.IsEmpty(Skin.String(CustomDefaultBGPath)) | String.IsEqual(Skin.String(CustomDefaultBGPath),background-default.png)] + [Skin.String(CustomDefaultBGType,1) | String.IsEmpty(Skin.String(CustomDefaultBGType))]</expression>
+
+	<!-- Next-Rapier: pulsing neon glow layer laid over the built-in default background -->
+	<include name="NextDefaultBGGlow">
+		<param name="visible" default="true"/>
+		<definition>
+			<control type="image">
+				<description>Neon glow (pulse)</description>
+				<include>BackgroundSize</include>
+				<texture>background-default-glow.png</texture>
+				<aspectratio>scale</aspectratio>
+				<visible>$PARAM[visible]</visible>
+				<animation effect="fade" start="30" end="100" time="1500" tween="sine" easing="inout" pulse="true" condition="true">Conditional</animation>
+				<animation effect="fade" time="400">VisibleChange</animation>
+			</control>
+		</definition>
+	</include>
+
 	<!-- Global background: built-in skin image choice (Settings > Skin > Backgrounds > Global) -->
 	<variable name="AvdvBuiltinBGLabelVar">
 		<value condition="String.IsEmpty(Skin.String(CustomDefaultBGPath)) | String.IsEqual(Skin.String(CustomDefaultBGPath),background-default.png)">$LOCALIZE[31786]</value>

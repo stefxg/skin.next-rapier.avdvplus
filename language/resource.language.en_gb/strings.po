@@ -2416,7 +2416,7 @@ msgid "Skin image"
 msgstr ""
 
 msgctxt "#31786"
-msgid "Grid - Cyan"
+msgid "Neon city"
 msgstr ""
 
 msgctxt "#31787"

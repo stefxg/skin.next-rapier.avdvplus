@@ -1767,8 +1767,8 @@ msgid "Skin image"
 msgstr "Image de la skin"
 
 msgctxt "#31786"
-msgid "Grid - Cyan"
-msgstr "Grille - Cyan"
+msgid "Neon city"
+msgstr "Cité néon"
 
 msgctxt "#31787"
 msgid "Grid - Orange"
