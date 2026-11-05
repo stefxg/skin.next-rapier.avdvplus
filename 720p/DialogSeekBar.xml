@@ -92,6 +92,7 @@
 				
 				<control type="progress">
 					<description>Progressbar Cache</description>
+					<righttexture />
 					<width>412</width>
 					<midtexture border="2">controls/scrollbar-slider-horz-nofocus.png</midtexture>
 					<info>Player.ProgressCache</info>

@@ -176,7 +176,7 @@
 		<texturebg border="4">controls/progress-background.png</texturebg>
 		<lefttexture />
 		<midtexture border="2">controls/scrollbar-slider-horz-focus.png</midtexture>
-		<righttexture />
+		<righttexture>controls/progress-head.png</righttexture>
 		<overlaytexture />
 	</default>
 	

@@ -398,6 +398,7 @@
 				
 				<control type="progress">
 					<description>Progressbar Cache</description>
+					<righttexture />
 					<left>29</left>
 					<top>39</top>
 					<width>412</width>
